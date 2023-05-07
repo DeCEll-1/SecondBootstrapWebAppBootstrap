@@ -42,6 +42,69 @@ namespace SecondBootstrapWebAppBootstrap.AdminPanel
         protected global::System.Web.UI.WebControls.DropDownList dll_Suppliers;
 
         /// <summary>
+        /// tb_Barkod control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Barkod;
+
+        /// <summary>
+        /// tb_Stok control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Stok;
+
+        /// <summary>
+        /// tb_GuvenlikStogu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_GuvenlikStogu;
+
+        /// <summary>
+        /// tb_Fiyat control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_Fiyat;
+
+        /// <summary>
+        /// fu_Image control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fu_Image;
+
+        /// <summary>
+        /// cd_Discontinued control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cd_Discontinued;
+
+        /// <summary>
+        /// cb_FastProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox cb_FastProduct;
+
+        /// <summary>
         /// lbtn_create control.
         /// </summary>
         /// <remarks>
