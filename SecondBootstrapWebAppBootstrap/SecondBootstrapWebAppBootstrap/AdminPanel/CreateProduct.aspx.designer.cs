@@ -11,7 +11,7 @@ namespace SecondBootstrapWebAppBootstrap.AdminPanel
 {
 
 
-    public partial class WebForm1
+    public partial class CreateProduct
     {
 
         /// <summary>

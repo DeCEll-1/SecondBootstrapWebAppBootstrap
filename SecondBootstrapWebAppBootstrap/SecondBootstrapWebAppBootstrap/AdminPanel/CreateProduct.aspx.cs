@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace SecondBootstrapWebAppBootstrap.AdminPanel
 {
-    public partial class CreatePrpduct : System.Web.UI.Page
+    public partial class CreateProduct : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lbtn_create_Click(object sender, EventArgs e)
         {
 
         }

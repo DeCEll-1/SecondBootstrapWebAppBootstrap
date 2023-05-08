@@ -1,10 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/AdminPanelMasterPage.Master" AutoEventWireup="true"
-    CodeBehind="WebForm1.aspx.cs" Inherits="SecondBootstrapWebAppBootstrap.AdminPanel.WebForm1" %>
-
+    CodeBehind="CreateProduct.aspx.cs" Inherits="SecondBootstrapWebAppBootstrap.AdminPanel.CreateProduct" %>
     <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     </asp:Content>
     <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
         <div class="card mt-3">
 
             <div class="card-header bg-gradient">
@@ -83,64 +81,80 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-8 col-md-8">
-                        <div class="mb-3 mt-3">
-                            <label class="form-label">Resim Seçiniz</label>
-                            <asp:FileUpload ID="fu_Image" runat="server" CssClass="form-control"></asp:FileUpload>
-                        </div>
-                    </div>
-
-
-                    
                 </div>
+
+
+
 
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+
+                    <div class="col-lg-2 col-md-2 float-start">
                         <div class="mb-3 mt-3">
-                            <label class="form-label">Satış Durumu</label>
-                            <asp:CheckBox ID="cd_Discontinued" runat="server" CssClass="form-check-input">
-                            </asp:CheckBox>
-                            <label for="ContentPlaceHolder1_cd_Discontinued" class="form-check-label">Satıştan Kaldır</label>
+                            <label class="form-label">Resim Seçiniz</label>
+                            <img id="img_image" class="img-thumbnail" style="" src="https://via.placeholder.com/600x400"
+                                alt="600x400">
                         </div>
                     </div>
 
-                    
-                    <div class="col-lg-4 col-md-6">
+
+
+
+                    <div class="col-lg-8 col-md-8 float-start">
                         <div class="mb-3 mt-3">
-                            <label class="form-label">Hızlı Ürün</label>
-                            <asp:CheckBox ID="cb_FastProduct" runat="server" CssClass="form-check-input">
-                            </asp:CheckBox>
-                            <label for="ContentPlaceHolder1_cb_FastProduct" class="form-check-label">Hızlı Satışa Ekle</label>
+                            <label class="form-label">Resim Seçiniz</label>
+                            <asp:FileUpload ID="fu_Image" runat="server" CssClass="form-control">
+                            </asp:FileUpload>
+                        </div>
+
+                    <div class="row ">
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Satış Durumu</label>
+                                <asp:CheckBox ID="cd_Discontinued" runat="server" CssClass="form-check-input">
+                                </asp:CheckBox>
+                                <label for="ContentPlaceHolder1_cd_Discontinued" class="form-check-label">Satıştan
+                                    Kaldır</label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Hızlı Ürün</label>
+                                <asp:CheckBox ID="cb_FastProduct" runat="server" CssClass="form-check-input">
+                                </asp:CheckBox>
+                                <label for="ContentPlaceHolder1_cb_FastProduct" class="form-check-label">Hızlı
+                                    Satışa
+                                    Ekle</label>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
 
-                <div class="card-footer">
+                    <div class="card-footer">
 
-                    <asp:LinkButton ID="lbtn_create" runat="server" CssClass="btn btn-success float-end"
-                        OnClick="lbtn_create_Click">Ürün Ekle</asp:LinkButton>
+                        <asp:LinkButton ID="lbtn_create" runat="server" CssClass="btn btn-success float-end"
+                            OnClick="lbtn_create_Click">Ürün Ekle</asp:LinkButton>
 
-                    <a href="#" class=" btn float-end btn-secondary me-4">Ürünler Listesine Git</a>
+                        <a href="#" class=" btn float-end btn-secondary me-4">Ürünler Listesine Git</a>
+
+                    </div>
+
+
+
+
 
                 </div>
-
-
-
-
-
             </div>
-        </div>
+    </asp:Content>
 
 
-
-        </div>
-
-
-
-
-
-
+    <asp:Content ID="Content3" ContentPlaceHolderID="MyScripts" runat="server">
+        <script src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script src="../Assets/Scripts/ImagePreview.js"></script>
     </asp:Content>
