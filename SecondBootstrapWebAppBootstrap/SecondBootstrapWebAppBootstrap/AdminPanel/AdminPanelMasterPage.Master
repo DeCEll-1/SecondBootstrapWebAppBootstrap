@@ -115,7 +115,6 @@
     </form>
 
         <script src="../Scripts/bootstrap.bundle.min.js"></script>
-        <script src="../Scripts/bootstrap.min.js"></script>
         <script src="../Assets/Scripts/dashboard.js"></script>
 
 
@@ -126,4 +125,3 @@
 
 </body>
 </html>
-
